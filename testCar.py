@@ -41,7 +41,7 @@ class CarClassTest(unittest.TestCase):
         man = Car('MAN', 'Truck', 'trailer')
         koenigsegg = Car('Koenigsegg', 'Agera R')
         self.assertEqual([8, 4], [man.num_of_wheels, koenigsegg.num_of_wheels],
-                         msg='The car shoud have four (4) wheels except its a type of trailer')
+                e         msg='The car shoud have four (4) wheels except its a type of trailer')
 
     def test_car_type(self):
         koenigsegg = Car('Koenigsegg', 'Agera R')
